@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spiceos_mojito.mk
+    $(LOCAL_DIR)/aicp_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    spiceos_mojito-eng \
-    spiceos_mojito-userdebug \
-    spiceos_mojito-eng
+    aicp_mojito-eng \
+    aicp_mojito-userdebug \
+    aicp_mojito-eng
