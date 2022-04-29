@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some LineageOS stuffs
-$(call inherit-product, vendor/spiceos/config/common_full_phone.mk)
+# Inherit some CalyxOS stuffs
+$(call inherit-product, vendor/calyx/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := spiceos_mojito
+PRODUCT_NAME := calyx_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
@@ -29,8 +29,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="redfin-user 12 SP1A.211105.003 7757856 release-keys"
 
 BUILD_FINGERPRINT :="google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys"
-
-
-# OFFICIAL SPICEOS
-
-SPICEOS_BUILDTYPE = OFFICIAL

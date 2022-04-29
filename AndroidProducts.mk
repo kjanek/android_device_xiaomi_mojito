@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spiceos_mojito.mk
+    $(LOCAL_DIR)/calyx_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    spiceos_mojito-eng \
-    spiceos_mojito-userdebug \
-    spiceos_mojito-eng
+    calyx_mojito-eng \
+    calyx_mojito-userdebug \
+    calyx_mojito-eng
