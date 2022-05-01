@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spiceos_mojito.mk
+    $(LOCAL_DIR)/p404_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    spiceos_mojito-eng \
-    spiceos_mojito-userdebug \
-    spiceos_mojito-eng
+    p404_mojito-user \
+    p404_mojito-userdebug \
+    p404_mojito-eng
